@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生化图谱 - 科研与教学工具</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- 顶部导航 -->
+        <header class="app-header">
+            <h1>生化图谱</h1>
+            <div class="mode-switcher">
+                <button id="research-mode-btn" class="active">科研版</button>
+                <button id="teaching-mode-btn">教学版</button>
+            </div>
+        </header>
+        
+        <!-- 主要内容区域 -->
+        <div class="main-content">
+            <!-- 左侧边栏 -->
+            <aside class="sidebar">
+                <!-- 搜索框 -->
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="搜索酶名或代谢物...">
+                </div>
+                
+                <!-- 教学版控制按钮 -->
+                <div class="teaching-controls" style="display: none;">
+                    <button id="play-btn">▶ 播放反应</button>
+                    <button id="reset-btn">重置</button>
+                    <button id="quiz-mode-btn">自测模式</button>
+                </div>
+                
+                <!-- 缩放控制按钮 -->
+                <div class="zoom-controls">
+                    <button id="zoom-in-btn">🔍 放大</button>
+                    <button id="zoom-out-btn">🔍 缩小</button>
+                    <button id="zoom-reset-btn">🔄 还原</button>
+                </div>
+                
+                <!-- 侧边栏收放控制 -->
+                <div class="sidebar-toggle">
+                    <button id="collapse-sidebar-btn">◀ 收起</button>
+                </div>
+                
+                <!-- 反应列表 -->
+                <div class="reactions-list">
+                    <h3>反应列表</h3>
+                    <div id="reactions-container"></div>
+                </div>
+            </aside>
+            
+            <!-- 右侧画布 -->
+            <main class="canvas-container">
+                <!-- 图例说明 -->
+                <div class="map-legend" style="position: absolute; top: 10px; right: 10px; background: white; padding: 10px; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); z-index: 100;">
+                    <h4 style="margin-top: 0; font-size: 14px;">图例说明</h4>
+                    <div style="font-size: 12px; line-height: 1.6;">
+                        <div><span style="display: inline-block; width: 20px; height: 1px; background: #999; vertical-align: middle; margin-right: 5px;"></span>普通反应连接</div>
+                        <div><span style="display: inline-block; width: 20px; height: 1px; background: #3498db; vertical-align: middle; margin-right: 5px;"></span>合成反应连接</div>
+                        <div><span style="display: inline-block; width: 20px; height: 1px; background: #e74c3c; vertical-align: middle; margin-right: 5px;"></span>分解反应连接</div>
+                        <div><span style="display: inline-block; padding: 2px 4px; border: 1px solid #e74c3c; background: white; color: #e74c3c; font-size: 8px; margin-right: 5px;">虚线反应</span>虚线反应（酶上方小框）</div>
+                        <div><span style="display: inline-block; margin-right: 5px;">💡</span>考点提示（酶名称右侧）</div>
+                    </div>
+                </div>
+                <svg id="biochemical-map" width="100%" height="100%"></svg>
+            </main>
+        </div>
+    </div>
+    
+    <!-- 详情提示框 -->
+    <div id="tooltip" class="tooltip" style="display: none;">
+        <div class="tooltip-content"></div>
+    </div>
+    
+    <!-- 自测输入框 -->
+    <div id="quiz-input" class="quiz-input" style="display: none;">
+        <input type="text" id="answer-input" placeholder="请输入答案...">
+        <button id="submit-answer">提交</button>
+        <button id="cancel-answer">取消</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

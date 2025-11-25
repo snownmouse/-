@@ -1,0 +1,1156 @@
+{
+  "nodes": [
+    // 糖酵解途径
+    {
+      "id": "glucose",
+      "name": "葡萄糖",
+      "type": "metabolite",
+      "formula": "C6H12O6",
+      "x": 100,
+      "y": 200
+    },
+    {
+      "id": "g6p",
+      "name": "葡萄糖-6-磷酸",
+      "type": "metabolite",
+      "formula": "C6H13O9P",
+      "x": 200,
+      "y": 200
+    },
+    {
+      "id": "f6p",
+      "name": "果糖-6-磷酸",
+      "type": "metabolite",
+      "formula": "C6H13O9P",
+      "x": 300,
+      "y": 200
+    },
+    {
+      "id": "f16bp",
+      "name": "果糖-1,6-二磷酸",
+      "type": "metabolite",
+      "formula": "C6H14O12P2",
+      "x": 400,
+      "y": 200
+    },
+    {
+      "id": "g3p",
+      "name": "甘油醛-3-磷酸",
+      "type": "metabolite",
+      "formula": "C3H7O6P",
+      "x": 500,
+      "y": 250
+    },
+    {
+      "id": "dhap",
+      "name": "二羟丙酮磷酸",
+      "type": "metabolite",
+      "formula": "C3H7O6P",
+      "x": 500,
+      "y": 150
+    },
+    {
+      "id": "13bpg",
+      "name": "1,3-二磷酸甘油酸",
+      "type": "metabolite",
+      "formula": "C3H8O10P2",
+      "x": 600,
+      "y": 250
+    },
+    {
+      "id": "3pg",
+      "name": "3-磷酸甘油酸",
+      "type": "metabolite",
+      "formula": "C3H7O7P",
+      "x": 700,
+      "y": 250
+    },
+    {
+      "id": "2pg",
+      "name": "2-磷酸甘油酸",
+      "type": "metabolite",
+      "formula": "C3H7O7P",
+      "x": 800,
+      "y": 250
+    },
+    {
+      "id": "pep",
+      "name": "磷酸烯醇式丙酮酸",
+      "type": "metabolite",
+      "formula": "C3H5O6P",
+      "x": 900,
+      "y": 250
+    },
+    {
+      "id": "pyruvate",
+      "name": "丙酮酸",
+      "type": "metabolite",
+      "formula": "C3H4O3",
+      "x": 1000,
+      "y": 250
+    },
+    
+    // 三羧酸循环
+    {
+      "id": "acetyl_coa",
+      "name": "乙酰辅酶A",
+      "type": "metabolite",
+      "formula": "C23H38N7O17P3S",
+      "x": 1000,
+      "y": 400
+    },
+    {
+      "id": "oxaloacetate",
+      "name": "草酰乙酸",
+      "type": "metabolite",
+      "formula": "C4H4O5",
+      "x": 900,
+      "y": 400
+    },
+    {
+      "id": "citrate",
+      "name": "柠檬酸",
+      "type": "metabolite",
+      "formula": "C6H8O7",
+      "x": 800,
+      "y": 400
+    },
+    {
+      "id": "isocitrate",
+      "name": "异柠檬酸",
+      "type": "metabolite",
+      "formula": "C6H8O7",
+      "x": 700,
+      "y": 400
+    },
+    {
+      "id": "alpha_kg",
+      "name": "α-酮戊二酸",
+      "type": "metabolite",
+      "formula": "C5H6O5",
+      "x": 600,
+      "y": 400
+    },
+    {
+      "id": "succinyl_coa",
+      "name": "琥珀酰辅酶A",
+      "type": "metabolite",
+      "formula": "C25H40N7O19P3S",
+      "x": 500,
+      "y": 400
+    },
+    {
+      "id": "succinate",
+      "name": "琥珀酸",
+      "type": "metabolite",
+      "formula": "C4H6O4",
+      "x": 400,
+      "y": 400
+    },
+    {
+      "id": "fumarate",
+      "name": "延胡索酸",
+      "type": "metabolite",
+      "formula": "C4H4O4",
+      "x": 300,
+      "y": 400
+    },
+    {
+      "id": "malate",
+      "name": "苹果酸",
+      "type": "metabolite",
+      "formula": "C4H6O5",
+      "x": 200,
+      "y": 400
+    },
+    
+    // 磷酸戊糖途径
+    {
+      "id": "6pg",
+      "name": "6-磷酸葡萄糖酸",
+      "type": "metabolite",
+      "formula": "C6H13O10P",
+      "x": 200,
+      "y": 300
+    },
+    {
+      "id": "ru5p",
+      "name": "核酮糖-5-磷酸",
+      "type": "metabolite",
+      "formula": "C5H11O8P",
+      "x": 200,
+      "y": 350
+    },
+    {
+      "id": "ribose5p",
+      "name": "核糖-5-磷酸",
+      "type": "metabolite",
+      "formula": "C5H11O8P",
+      "x": 150,
+      "y": 350
+    },
+    {
+      "id": "xylulose5p",
+      "name": "木酮糖-5-磷酸",
+      "type": "metabolite",
+      "formula": "C5H11O8P",
+      "x": 250,
+      "y": 350
+    },
+    {
+      "id": "sedoheptulose7p",
+      "name": "景天庚酮糖-7-磷酸",
+      "type": "metabolite",
+      "formula": "C7H13O11P",
+      "x": 300,
+      "y": 300
+    },
+    {
+      "id": "erythrose4p",
+      "name": "赤藓糖-4-磷酸",
+      "type": "metabolite",
+      "formula": "C4H9O7P",
+      "x": 300,
+      "y": 350
+    },
+    
+    // 糖酵解酶 - 固定在反应连线正上方
+    {
+      "id": "enzyme1",
+      "name": "己糖激酶",
+      "type": "enzyme",
+      "ec": "2.7.1.1",
+      "x": 150,
+      "y": 170
+    },
+    {
+      "id": "enzyme2",
+      "name": "葡萄糖-6-磷酸异构酶",
+      "type": "enzyme",
+      "ec": "5.3.1.9",
+      "x": 250,
+      "y": 170
+    },
+    {
+      "id": "enzyme3",
+      "name": "磷酸果糖激酶",
+      "type": "enzyme",
+      "ec": "2.7.1.11",
+      "x": 350,
+      "y": 170
+    },
+    {
+      "id": "enzyme4",
+      "name": "醛缩酶",
+      "type": "enzyme",
+      "ec": "4.1.2.13",
+      "x": 450,
+      "y": 170
+    },
+    {
+      "id": "enzyme5",
+      "name": "磷酸丙糖异构酶",
+      "type": "enzyme",
+      "ec": "5.3.1.1",
+      "x": 500,
+      "y": 170
+    },
+    {
+      "id": "enzyme6",
+      "name": "甘油醛-3-磷酸脱氢酶",
+      "type": "enzyme",
+      "ec": "1.2.1.12",
+      "x": 550,
+      "y": 220
+    },
+    {
+      "id": "enzyme7",
+      "name": "磷酸甘油酸激酶",
+      "type": "enzyme",
+      "ec": "2.7.2.3",
+      "x": 650,
+      "y": 220
+    },
+    {
+      "id": "enzyme8",
+      "name": "磷酸甘油酸变位酶",
+      "type": "enzyme",
+      "ec": "5.4.2.1",
+      "x": 750,
+      "y": 220
+    },
+    {
+      "id": "enzyme9",
+      "name": "烯醇化酶",
+      "type": "enzyme",
+      "ec": "4.2.1.11",
+      "x": 850,
+      "y": 220
+    },
+    {
+      "id": "enzyme10",
+      "name": "丙酮酸激酶",
+      "type": "enzyme",
+      "ec": "2.7.1.40",
+      "x": 950,
+      "y": 220
+    },
+    
+    // 丙酮酸脱氢酶复合体 - 固定在反应连线正上方
+    {
+      "id": "enzyme11",
+      "name": "丙酮酸脱氢酶复合体",
+      "type": "enzyme",
+      "ec": "1.2.4.1",
+      "x": 1000,
+      "y": 325
+    },
+    
+    // 三羧酸循环酶 - 固定在反应连线正上方
+    {
+      "id": "enzyme12",
+      "name": "柠檬酸合酶",
+      "type": "enzyme",
+      "ec": "2.3.3.1",
+      "x": 950,
+      "y": 370
+    },
+    {
+      "id": "enzyme13",
+      "name": "顺乌头酸酶",
+      "type": "enzyme",
+      "ec": "4.2.1.3",
+      "x": 850,
+      "y": 370
+    },
+    {
+      "id": "enzyme14",
+      "name": "异柠檬酸脱氢酶",
+      "type": "enzyme",
+      "ec": "1.1.1.42",
+      "x": 750,
+      "y": 370
+    },
+    {
+      "id": "enzyme15",
+      "name": "α-酮戊二酸脱氢酶复合体",
+      "type": "enzyme",
+      "ec": "1.2.4.2",
+      "x": 650,
+      "y": 370
+    },
+    {
+      "id": "enzyme16",
+      "name": "琥珀酰辅酶A合成酶",
+      "type": "enzyme",
+      "ec": "6.2.1.5",
+      "x": 550,
+      "y": 370
+    },
+    {
+      "id": "enzyme17",
+      "name": "琥珀酸脱氢酶",
+      "type": "enzyme",
+      "ec": "1.3.5.1",
+      "x": 450,
+      "y": 370
+    },
+    {
+      "id": "enzyme18",
+      "name": "延胡索酸酶",
+      "type": "enzyme",
+      "ec": "4.2.1.2",
+      "x": 350,
+      "y": 370
+    },
+    {
+      "id": "enzyme19",
+      "name": "苹果酸脱氢酶",
+      "type": "enzyme",
+      "ec": "1.1.1.37",
+      "x": 250,
+      "y": 370
+    },
+    
+    // 磷酸戊糖途径酶 - 固定在反应连线正上方
+    {
+      "id": "enzyme20",
+      "name": "葡萄糖-6-磷酸脱氢酶",
+      "type": "enzyme",
+      "ec": "1.1.1.49",
+      "x": 200,
+      "y": 230
+    },
+    {
+      "id": "enzyme21",
+      "name": "6-磷酸葡萄糖酸脱氢酶",
+      "type": "enzyme",
+      "ec": "1.1.1.44",
+      "x": 200,
+      "y": 320
+    },
+    {
+      "id": "enzyme22",
+      "name": "核糖-5-磷酸异构酶",
+      "type": "enzyme",
+      "ec": "5.3.1.6",
+      "x": 175,
+      "y": 320
+    },
+    {
+      "id": "enzyme23",
+      "name": "核酮糖-5-磷酸差向异构酶",
+      "type": "enzyme",
+      "ec": "5.1.3.1",
+      "x": 225,
+      "y": 320
+    },
+    {
+      "id": "enzyme24",
+      "name": "转酮醇酶",
+      "type": "enzyme",
+      "ec": "2.2.1.1",
+      "x": 250,
+      "y": 320
+    },
+    {
+      "id": "enzyme25",
+      "name": "转醛醇酶",
+      "type": "enzyme",
+      "ec": "2.2.1.2",
+      "x": 275,
+      "y": 320
+    },
+    
+    // 电子传递链 - 新增
+    {"id": "nadph","name": "NADPH","type": "metabolite","formula": "C21H29N7O17P3","x": 1100,"y": 200},
+    {"id": "nadh","name": "NADH","type": "metabolite","formula": "C21H29N7O17P3","x": 1100,"y": 300},
+    {"id": "fadh2","name": "FADH2","type": "metabolite","formula": "C27H33N9O15P2","x": 1100,"y": 400},
+    {"id": "atp","name": "ATP","type": "metabolite","formula": "C10H16N5O13P3","x": 1200,"y": 300},
+    {"id": "adp","name": "ADP","type": "metabolite","formula": "C10H15N5O10P2","x": 1150,"y": 400},
+    {"id": "pi","name": "无机磷酸","type": "metabolite","formula": "H3PO4","x": 1150,"y": 200},
+    {"id": "oxygen","name": "氧气","type": "metabolite","formula": "O2","x": 1200,"y": 200},
+    {"id": "water","name": "水","type": "metabolite","formula": "H2O","x": 1200,"y": 400},
+    
+    // 氨基酸代谢 - 新增
+    {"id": "glutamate","name": "谷氨酸","type": "metabolite","formula": "C5H9NO4","x": 500,"y": 100},
+    {"id": "glutamine","name": "谷氨酰胺","type": "metabolite","formula": "C5H10N2O3","x": 500,"y": 150},
+    {"id": "aspartate","name": "天冬氨酸","type": "metabolite","formula": "C4H7NO4","x": 800,"y": 150},
+    {"id": "urea","name": "尿素","type": "metabolite","formula": "CH4N2O","x": 400,"y": 100},
+    
+    // 核苷酸代谢 - 新增
+    {"id": "prpp","name": "5-磷酸核糖-1-焦磷酸","type": "metabolite","formula": "C5H13O14P3","x": 150,"y": 400},
+    {"id": "imp","name": "次黄嘌呤核苷酸","type": "metabolite","formula": "C10H13N4O8P","x": 150,"y": 450},
+    {"id": "amp","name": "腺嘌呤核苷酸","type": "metabolite","formula": "C10H14N5O7P","x": 100,"y": 450},
+    {"id": "gmp","name": "鸟嘌呤核苷酸","type": "metabolite","formula": "C10H14N5O8P","x": 200,"y": 450},
+    
+    // 电子传递链酶 - 新增
+    {"id": "enzyme39","name": "NADH脱氢酶","type": "enzyme","ec": "1.6.5.3","x": 1100,"y": 270},
+    {"id": "enzyme40","name": "琥珀酸脱氢酶(复合体II)","type": "enzyme","ec": "1.3.5.1","x": 1100,"y": 370},
+    {"id": "enzyme41","name": "细胞色素c氧化酶","type": "enzyme","ec": "7.1.1.9","x": 1150,"y": 300},
+    {"id": "enzyme42","name": "ATP合酶","type": "enzyme","ec": "3.6.3.14","x": 1200,"y": 350},
+    
+    // 氨基酸代谢酶 - 新增
+    {"id": "enzyme43","name": "谷氨酸脱氢酶","type": "enzyme","ec": "1.4.1.2","x": 500,"y": 70},
+    {"id": "enzyme44","name": "谷氨酰胺合成酶","type": "enzyme","ec": "6.3.1.2","x": 500,"y": 120},
+    {"id": "enzyme45","name": "天冬氨酸转氨酶","type": "enzyme","ec": "2.6.1.1","x": 750,"y": 120},
+    {"id": "enzyme46","name": "精氨酸代琥珀酸合成酶","type": "enzyme","ec": "6.3.4.5","x": 450,"y": 120},
+    
+    // 核苷酸代谢酶 - 新增
+    {"id": "enzyme47","name": "PRPP合成酶","type": "enzyme","ec": "2.7.6.1","x": 150,"y": 370},
+    {"id": "enzyme48","name": "次黄嘌呤核苷酸合成酶","type": "enzyme","ec": "6.3.4.13","x": 150,"y": 420},
+    {"id": "enzyme49","name": "腺苷酸代琥珀酸合成酶","type": "enzyme","ec": "6.3.2.6","x": 125,"y": 420},
+    {"id": "enzyme50","name": "IMP脱氢酶","type": "enzyme","ec": "1.1.1.205","x": 175,"y": 420}
+    
+    // 糖原代谢 - 新增
+    {
+      "id": "glycogen",
+      "name": "糖原",
+      "type": "metabolite",
+      "formula": "(C6H10O5)n",
+      "x": 100,
+      "y": 100
+    },
+    {
+      "id": "g1p",
+      "name": "葡萄糖-1-磷酸",
+      "type": "metabolite",
+      "formula": "C6H13O9P",
+      "x": 200,
+      "y": 100
+    },
+    {
+      "id": "udp_glucose",
+      "name": "UDP-葡萄糖",
+      "type": "metabolite",
+      "formula": "C15H22N2O17P2",
+      "x": 300,
+      "y": 100
+    },
+    
+    // 糖异生途径 - 新增
+    {
+      "id": "lactate",
+      "name": "乳酸",
+      "type": "metabolite",
+      "formula": "C3H6O3",
+      "x": 900,
+      "y": 100
+    },
+    {
+      "id": "alanine",
+      "name": "丙氨酸",
+      "type": "metabolite",
+      "formula": "C3H7NO2",
+      "x": 800,
+      "y": 100
+    },
+    {
+      "id": "f26bp",
+      "name": "果糖-2,6-二磷酸",
+      "type": "metabolite",
+      "formula": "C6H14O12P2",
+      "x": 350,
+      "y": 150
+    },
+    
+    // 脂肪酸代谢 - 新增
+    {
+      "id": "acyl_coa",
+      "name": "脂酰辅酶A",
+      "type": "metabolite",
+      "formula": "R-CS-CoA",
+      "x": 1000,
+      "y": 500
+    },
+    {
+      "id": "acetyl_coa_2",
+      "name": "乙酰辅酶A(β氧化)",
+      "type": "metabolite",
+      "formula": "C23H38N7O17P3S",
+      "x": 800,
+      "y": 500
+    },
+    {
+      "id": "malonyl_coa",
+      "name": "丙二酰辅酶A",
+      "type": "metabolite",
+      "formula": "C24H38N7O19P3S",
+      "x": 1000,
+      "y": 600
+    },
+    {
+      "id": "citrate_cytosolic",
+      "name": "柠檬酸(胞质)",
+      "type": "metabolite",
+      "formula": "C6H8O7",
+      "x": 900,
+      "y": 600
+    },
+    
+    // 糖原代谢酶 - 新增
+    {
+      "id": "enzyme26",
+      "name": "糖原磷酸化酶",
+      "type": "enzyme",
+      "ec": "2.4.1.1",
+      "x": 150,
+      "y": 70
+    },
+    {
+      "id": "enzyme27",
+      "name": "磷酸葡萄糖变位酶",
+      "type": "enzyme",
+      "ec": "5.4.2.2",
+      "x": 200,
+      "y": 70
+    },
+    {
+      "id": "enzyme28",
+      "name": "UDP-葡萄糖焦磷酸化酶",
+      "type": "enzyme",
+      "ec": "2.7.7.9",
+      "x": 250,
+      "y": 70
+    },
+    {
+      "id": "enzyme29",
+      "name": "糖原合酶",
+      "type": "enzyme",
+      "ec": "2.4.1.11",
+      "x": 200,
+      "y": 40
+    },
+    
+    // 糖异生酶 - 新增
+    {
+      "id": "enzyme30",
+      "name": "乳酸脱氢酶",
+      "type": "enzyme",
+      "ec": "1.1.1.27",
+      "x": 850,
+      "y": 70
+    },
+    {
+      "id": "enzyme31",
+      "name": "丙酮酸羧化酶",
+      "type": "enzyme",
+      "ec": "6.4.1.1",
+      "x": 900,
+      "y": 180
+    },
+    {
+      "id": "enzyme32",
+      "name": "磷酸烯醇式丙酮酸羧激酶",
+      "type": "enzyme",
+      "ec": "4.1.1.32",
+      "x": 850,
+      "y": 180
+    },
+    {
+      "id": "enzyme33",
+      "name": "果糖二磷酸酶-1",
+      "type": "enzyme",
+      "ec": "3.1.3.11",
+      "x": 350,
+      "y": 230
+    },
+    {
+      "id": "enzyme34",
+      "name": "葡萄糖-6-磷酸酶",
+      "type": "enzyme",
+      "ec": "3.1.3.9",
+      "x": 150,
+      "y": 230
+    },
+    
+    // 脂肪酸代谢酶 - 新增
+    {
+      "id": "enzyme35",
+      "name": "肉碱棕榈酰转移酶I",
+      "type": "enzyme",
+      "ec": "2.3.1.21",
+      "x": 900,
+      "y": 470
+    },
+    {
+      "id": "enzyme36",
+      "name": "β-酮脂酰CoA硫解酶",
+      "type": "enzyme",
+      "ec": "2.3.1.16",
+      "x": 900,
+      "y": 530
+    },
+    {
+      "id": "enzyme37",
+      "name": "乙酰CoA羧化酶",
+      "type": "enzyme",
+      "ec": "6.4.1.2",
+      "x": 1000,
+      "y": 570
+    },
+    {
+      "id": "enzyme38",
+      "name": "柠檬酸合酶(胞质)",
+      "type": "enzyme",
+      "ec": "2.3.3.20",
+      "x": 950,
+      "y": 570
+    }
+  ],
+  "links": [
+    // 糖酵解途径 - 添加方向属性
+    {
+      "source": "glucose",
+      "target": "g6p",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "葡萄糖磷酸化",
+      "enzyme": "enzyme1",
+      "考点": "糖酵解的第一个限速酶",
+      "条件": "Mg²⁺, ATP",
+      "产物": "ADP"
+    },
+    {
+      "source": "g6p",
+      "target": "f6p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "葡萄糖-6-磷酸异构化",
+      "enzyme": "enzyme2"
+    },
+    {
+      "source": "f6p",
+      "target": "f16bp",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "果糖-6-磷酸磷酸化",
+      "enzyme": "enzyme3",
+      "考点": "糖酵解的主要调控点",
+      "条件": "Mg²⁺, ATP",
+      "产物": "ADP",
+      "能量变化": "ATP→ADP"
+    },
+    {
+      "source": "f16bp",
+      "target": "g3p",
+      "type": "decomposition",
+      "direction": "forward",
+      "name": "果糖-1,6-二磷酸分解",
+      "enzyme": "enzyme4"
+    },
+    {
+      "source": "f16bp",
+      "target": "dhap",
+      "type": "decomposition",
+      "direction": "forward",
+      "name": "果糖-1,6-二磷酸分解",
+      "enzyme": "enzyme4"
+    },
+    {
+      "source": "dhap",
+      "target": "g3p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "二羟丙酮磷酸异构化",
+      "enzyme": "enzyme5"
+    },
+    {
+      "source": "g3p",
+      "target": "13bpg",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "甘油醛-3-磷酸氧化",
+      "enzyme": "enzyme6",
+      "考点": "产生NADH的步骤"
+    },
+    {
+      "source": "13bpg",
+      "target": "3pg",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "1,3-二磷酸甘油酸去磷酸化",
+      "enzyme": "enzyme7",
+      "考点": "底物水平磷酸化产生ATP",
+      "条件": "Mg²⁺",
+      "产物": "ATP",
+      "能量变化": "ADP+Pi→ATP"
+    },
+    {
+      "source": "3pg",
+      "target": "2pg",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "3-磷酸甘油酸变位",
+      "enzyme": "enzyme8"
+    },
+    {
+      "source": "2pg",
+      "target": "pep",
+      "type": "decomposition",
+      "direction": "forward",
+      "name": "2-磷酸甘油酸脱水",
+      "enzyme": "enzyme9"
+    },
+    {
+      "source": "pep",
+      "target": "pyruvate",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "磷酸烯醇式丙酮酸去磷酸化",
+      "enzyme": "enzyme10",
+      "考点": "底物水平磷酸化产生ATP",
+      "条件": "Mg²⁺, K⁺",
+      "产物": "ATP",
+      "能量变化": "ADP+Pi→ATP"
+    },
+    
+    // 丙酮酸到乙酰辅酶A
+    {
+      "source": "pyruvate",
+      "target": "acetyl_coa",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "丙酮酸氧化脱羧",
+      "enzyme": "enzyme11",
+      "考点": "连接糖酵解和三羧酸循环的关键步骤"
+    },
+    
+    // 三羧酸循环
+    {
+      "source": "acetyl_coa",
+      "target": "citrate",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "乙酰辅酶A与草酰乙酸缩合",
+      "enzyme": "enzyme12",
+      "考点": "三羧酸循环的第一步"
+    },
+    {
+      "source": "oxaloacetate",
+      "target": "citrate",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "草酰乙酸参与缩合反应",
+      "enzyme": "enzyme12"
+    },
+    {
+      "source": "citrate",
+      "target": "isocitrate",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "柠檬酸异构化",
+      "enzyme": "enzyme13"
+    },
+    {
+      "source": "isocitrate",
+      "target": "alpha_kg",
+      "type": "decomposition",
+      "direction": "forward",
+      "name": "异柠檬酸氧化脱羧",
+      "enzyme": "enzyme14",
+      "考点": "第一次氧化脱羧，产生NADH和CO2",
+      "条件": "Mg²⁺, NAD⁺",
+      "产物": "NADH, CO₂"
+    },
+    {
+      "source": "alpha_kg",
+      "target": "succinyl_coa",
+      "type": "decomposition",
+      "direction": "forward",
+      "name": "α-酮戊二酸氧化脱羧",
+      "enzyme": "enzyme15",
+      "考点": "第二次氧化脱羧，产生NADH和CO2",
+      "条件": "Mg²⁺, NAD⁺, CoA",
+      "产物": "NADH, CO₂"
+    },
+    {
+      "source": "succinyl_coa",
+      "target": "succinate",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "琥珀酰辅酶A水解",
+      "enzyme": "enzyme16",
+      "考点": "底物水平磷酸化产生GTP",
+      "条件": "Mg²⁺, Pi",
+      "产物": "GTP, CoA",
+      "能量变化": "GDP+Pi→GTP"
+    },
+    {
+      "source": "succinate",
+      "target": "fumarate",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "琥珀酸脱氢",
+      "enzyme": "enzyme17",
+      "考点": "产生FADH2，唯一与呼吸链直接相连的酶"
+    },
+    {
+      "source": "fumarate",
+      "target": "malate",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "延胡索酸水合",
+      "enzyme": "enzyme18"
+    },
+    {
+      "source": "malate",
+      "target": "oxaloacetate",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "苹果酸脱氢",
+      "enzyme": "enzyme19",
+      "考点": "产生NADH，循环完成"
+    },
+    
+    // 磷酸戊糖途径
+    {
+      "source": "g6p",
+      "target": "6pg",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "葡萄糖-6-磷酸脱氢",
+      "enzyme": "enzyme20",
+      "考点": "磷酸戊糖途径的限速酶"
+    },
+    {
+      "source": "6pg",
+      "target": "ru5p",
+      "type": "decomposition",
+      "direction": "forward",
+      "name": "6-磷酸葡萄糖酸脱氢脱羧",
+      "enzyme": "enzyme21",
+      "考点": "产生NADPH和CO2"
+    },
+    {
+      "source": "ru5p",
+      "target": "ribose5p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "核酮糖-5-磷酸异构化",
+      "enzyme": "enzyme22"
+    },
+    {
+      "source": "ru5p",
+      "target": "xylulose5p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "核酮糖-5-磷酸差向异构",
+      "enzyme": "enzyme23"
+    },
+    {
+      "source": "xylulose5p",
+      "target": "sedoheptulose7p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "转酮醇酶反应",
+      "enzyme": "enzyme24"
+    },
+    {
+      "source": "xylulose5p",
+      "target": "erythrose4p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "转酮醇酶反应",
+      "enzyme": "enzyme24"
+    },
+    {
+      "source": "ribose5p",
+      "target": "sedoheptulose7p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "转醛醇酶反应",
+      "enzyme": "enzyme25"
+    },
+    {
+      "source": "ribose5p",
+      "target": "erythrose4p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "转醛醇酶反应",
+      "enzyme": "enzyme25"
+    },
+    {
+      "source": "erythrose4p",
+      "target": "f6p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "与糖酵解的连接",
+      "enzyme": "enzyme24"
+    },
+    {
+      "source": "sedoheptulose7p",
+      "target": "g3p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "与糖酵解的连接",
+      "enzyme": "enzyme24"
+    },
+    
+    // 电子传递链 - 新增
+    {"source": "nadh","target": "oxygen","type": "synthesis","direction": "forward","name": "NADH氧化","enzyme": "enzyme39","考点": "电子传递链复合体I"},
+    {"source": "fadh2","target": "oxygen","type": "synthesis","direction": "forward","name": "FADH2氧化","enzyme": "enzyme40","考点": "电子传递链复合体II"},
+    {"source": "oxygen","target": "water","type": "synthesis","direction": "forward","name": "水的生成","enzyme": "enzyme41","考点": "电子传递链复合体IV"},
+    {"source": "adp","target": "atp","type": "synthesis","direction": "forward","name": "ATP合成","enzyme": "enzyme42","考点": "ATP合酶，氧化磷酸化"},
+    {"source": "pi","target": "atp","type": "synthesis","direction": "forward","name": "磷酸化","enzyme": "enzyme42"},
+    
+    // 氨基酸代谢 - 新增
+    {"source": "alpha_kg","target": "glutamate","type": "synthesis","direction": "bidirectional","name": "α-酮戊二酸转氨","enzyme": "enzyme43"},
+    {"source": "glutamate","target": "glutamine","type": "synthesis","direction": "forward","name": "谷氨酰胺合成","enzyme": "enzyme44","考点": "氮代谢关键酶"},
+    {"source": "oxaloacetate","target": "aspartate","type": "synthesis","direction": "bidirectional","name": "草酰乙酸转氨","enzyme": "enzyme45"},
+    {"source": "glutamine","target": "urea","type": "decomposition","direction": "forward","name": "尿素循环","enzyme": "enzyme46","考点": "氨基酸脱氨的主要途径"},
+    {"source": "aspartate","target": "urea","type": "decomposition","direction": "forward","name": "尿素生成","enzyme": "enzyme46"},
+    
+    // 核苷酸代谢 - 新增
+    {"source": "ribose5p","target": "prpp","type": "synthesis","direction": "forward","name": "PRPP合成","enzyme": "enzyme47","考点": "核苷酸合成的关键步骤"},
+    {"source": "prpp","target": "imp","type": "synthesis","direction": "forward","name": "IMP合成","enzyme": "enzyme48","考点": "嘌呤核苷酸从头合成"},
+    {"source": "imp","target": "amp","type": "synthesis","direction": "forward","name": "AMP合成","enzyme": "enzyme49"},
+    {"source": "imp","target": "gmp","type": "synthesis","direction": "forward","name": "GMP合成","enzyme": "enzyme50"},
+    
+    // 连接反应 - 新增
+    {"source": "g3p","target": "nadh","type": "synthesis","direction": "forward","name": "NADH生成","enzyme": "enzyme6"},
+    {"source": "malate","target": "nadh","type": "synthesis","direction": "forward","name": "NADH生成","enzyme": "enzyme19"},
+    {"source": "succinate","target": "fadh2","type": "synthesis","direction": "forward","name": "FADH2生成","enzyme": "enzyme17"},
+    {"source": "6pg","target": "nadph","type": "synthesis","direction": "forward","name": "NADPH生成","enzyme": "enzyme21","考点": "磷酸戊糖途径的主要功能"},
+    {"source": "nadh","target": "atp","type": "synthesis","direction": "forward","name": "氧化磷酸化","enzyme": "enzyme42","考点": "每分子NADH产生约2.5分子ATP"},
+    {"source": "fadh2","target": "atp","type": "synthesis","direction": "forward","name": "氧化磷酸化","enzyme": "enzyme42","考点": "每分子FADH2产生约1.5分子ATP"},
+    {"source": "pep","target": "atp","type": "synthesis","direction": "forward","name": "底物水平磷酸化","enzyme": "enzyme10"},
+    {"source": "13bpg","target": "atp","type": "synthesis","direction": "forward","name": "底物水平磷酸化","enzyme": "enzyme7"},
+    {"source": "succinyl_coa","target": "atp","type": "synthesis","direction": "forward","name": "底物水平磷酸化(GTP)","enzyme": "enzyme16"},
+    {"source": "atp","target": "g6p","type": "decomposition","direction": "forward","name": "ATP消耗","enzyme": "enzyme1"},
+    {"source": "atp","target": "f16bp","type": "decomposition","direction": "forward","name": "ATP消耗","enzyme": "enzyme3"},
+    
+    // 糖原代谢途径 - 新增
+    {
+      "source": "glycogen",
+      "target": "g1p",
+      "type": "decomposition",
+      "direction": "forward",
+      "name": "糖原分解",
+      "enzyme": "enzyme26",
+      "考点": "糖原分解的关键酶"
+    },
+    {
+      "source": "g1p",
+      "target": "g6p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "葡萄糖-1-磷酸异构化",
+      "enzyme": "enzyme27"
+    },
+    {
+      "source": "g6p",
+      "target": "g1p",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "葡萄糖-6-磷酸异构化",
+      "enzyme": "enzyme27"
+    },
+    {
+      "source": "g1p",
+      "target": "udp_glucose",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "UDP-葡萄糖合成",
+      "enzyme": "enzyme28"
+    },
+    {
+      "source": "udp_glucose",
+      "target": "glycogen",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "糖原合成",
+      "enzyme": "enzyme29",
+      "考点": "糖原合成的关键酶"
+    },
+    
+    // 糖异生途径 - 新增
+    {
+      "source": "lactate",
+      "target": "pyruvate",
+      "type": "synthesis",
+      "direction": "bidirectional",
+      "name": "乳酸转化为丙酮酸",
+      "enzyme": "enzyme30"
+    },
+    {
+      "source": "alanine",
+      "target": "pyruvate",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "丙氨酸转氨",
+      "enzyme": "enzyme30"
+    },
+    {
+      "source": "pyruvate",
+      "target": "oxaloacetate",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "丙酮酸羧化",
+      "enzyme": "enzyme31",
+      "考点": "糖异生的第一个关键酶"
+    },
+    {
+      "source": "oxaloacetate",
+      "target": "pep",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "磷酸烯醇式丙酮酸生成",
+      "enzyme": "enzyme32",
+      "考点": "糖异生的第二个关键酶"
+    },
+    {
+      "source": "f16bp",
+      "target": "f6p",
+      "type": "decomposition",
+      "direction": "forward",
+      "name": "果糖-1,6-二磷酸去磷酸化",
+      "enzyme": "enzyme33",
+      "考点": "糖异生的第三个关键酶"
+    },
+    {
+      "source": "g6p",
+      "target": "glucose",
+      "type": "decomposition",
+      "direction": "forward",
+      "name": "葡萄糖-6-磷酸去磷酸化",
+      "enzyme": "enzyme34",
+      "考点": "糖异生的第四个关键酶"
+    },
+    {
+      "source": "f6p",
+      "target": "f26bp",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "果糖-2,6-二磷酸合成",
+      "enzyme": "enzyme3"
+    },
+    
+    // 脂肪酸代谢 - 新增
+    {
+      "source": "acyl_coa",
+      "target": "acetyl_coa_2",
+      "type": "decomposition",
+      "direction": "forward",
+      "name": "β-氧化",
+      "enzyme": "enzyme36",
+      "考点": "产生FADH2和NADH"
+    },
+    {
+      "source": "acetyl_coa",
+      "target": "malonyl_coa",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "丙二酰辅酶A合成",
+      "enzyme": "enzyme37",
+      "考点": "脂肪酸合成的限速酶"
+    },
+    {
+      "source": "acetyl_coa",
+      "target": "citrate_cytosolic",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "柠檬酸转运至胞质",
+      "enzyme": "enzyme38"
+    },
+    {
+      "source": "citrate_cytosolic",
+      "target": "acetyl_coa_2",
+      "type": "decomposition",
+      "direction": "forward",
+      "name": "柠檬酸裂解释放乙酰CoA",
+      "enzyme": "enzyme38"
+    },
+    {
+      "source": "acetyl_coa_2",
+      "target": "acyl_coa",
+      "type": "synthesis",
+      "direction": "forward",
+      "name": "脂酰辅酶A合成",
+      "enzyme": "enzyme35"
+    }
+  ]
+}
+
+现在我们已经创建了生化图谱应用的所有核心文件。让我总结一下：
+
+1. **index.html** - 应用的主页面，包含界面布局和基本结构
+2. **styles.css** - 应用的样式文件，定义了界面的外观和交互效果
+3. **script.js** - 应用的JavaScript代码，实现了所有功能逻辑
+4. **data.json** - 存储生化反应数据的JSON文件
+
+应用功能包括：
+
+**科研版功能：**
+- 静态图谱展示所有代谢物和酶
+- 反应列表，带有颜色标识（合成反应蓝色，分解反应红色）
+- 搜索功能，可搜索酶名或代谢物
+- 鼠标悬停显示详细信息
+- 点击反应列表项高亮对应反应
+
+**教学版功能：**
+- 分步播放动画，模拟代谢流
+- 自测模式，隐藏酶名让学生填空
+- 考点提示，在关键反应旁显示提示图标
+
+使用方法非常简单，只需在浏览器中打开index.html文件即可运行应用。用户可以通过顶部的按钮切换科研版和教学版模式。
